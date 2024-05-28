@@ -1,0 +1,36 @@
+.staffSidebar {
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+
+.staffSidebar .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.staffSidebar .box:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.staffSidebar .selected_box {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.staffSidebar .flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

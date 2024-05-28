@@ -1,0 +1,151 @@
+.manager_topbar .popper {
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    padding-block: 15px;
+    background-color: #121212;
+    border-radius: 10px;
+    font-family: system-ui;
+    z-index: 1;
+}
+.manager_topbar .flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.manager_topbar .flex-center:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.manager_topbar .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.manager_topbar .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.manager_topbar .divider {
+    height: 1px;
+    background-color: #aaaaaa47;
+    margin-block: 11px;
+    margin-inline: 24px;
+}
+.manager_topbar .view_all {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    color: #70d8bd;
+}
+.manager_topbar .view_all:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.manager_topbar .logout {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+}
+.manager_topbar .logout:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.manager_topbar .back-flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.manager_topbar .back {
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.manager_topbar .back:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.manager_topbar .shop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.manager_topbar .shop:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.manager_topbar .shop_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.manager_topbar .shop_name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.manager_topbar .shop_disable:hover {
+    background-color: #54545447;
+    cursor: not-allowed;
+}
+
+.manager_topbar .flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.manager_topbar .count {
+    position: absolute;
+    top: 25px;
+    right: 6px;
+    background-color: #55ab95;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.manager_topbar .count_box {
+    position: relative;
+}
+.manager_topbar .noti_box {
+    padding: 10px;
+    padding-block: 5px;
+    cursor: pointer;
+}
+.manager_topbar .noti_box:hover {
+    background-color: #aaaaaa47;
+}
+.manager_topbar .time {
+    font-size: 11px;
+    font-weight: normal;
+}
+.manager_topbar .title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.manager_topbar .content {
+    font-size: 13px;
+    color: gainsboro;
+}
+.manager_topbar .isread {
+    color: #8b8b8b;
+}

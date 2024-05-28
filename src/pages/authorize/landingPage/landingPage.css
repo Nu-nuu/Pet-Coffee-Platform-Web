@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+.landingPage {
+    background-color: #141b2d;
+}
+.landingPage .header {
+    padding-block: 2em;
+    padding-inline: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.landingPage .header_btn {
+    text-transform: capitalize !important;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #55ab95;
+}
+.landingPage .header_btn:hover {
+    background-color: #419781;
+}
+
+.landingPage .body {
+    padding-inline: 10%;
+}
+.landingPage .body_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-bottom: 30px;
+}
+.landingPage .body_top_text {
+    /* font-family: "Lobster"; */
+    font-family: "Pacifico";
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 21px;
+    margin-top: 80px;
+    color: #70d8bd;
+}
+
+.landingPage .body_top_desc {
+    font-weight: bold;
+    font-size: 17px;
+    color: #70d8bd;
+    text-transform: capitalize;
+}
+
+.landingPage .body_mid_box {
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-color: #55ab95;
+}
+
+.landingPage .body_mid_box:hover {
+    border-color: #419781 !important;
+}
+
+.landingPage .body_mid_img {
+    width: 150px;
+}
+
+.landingPage .body_mid_text {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #70d8bd;
+}
+
+.landingPage .footer {
+    background-color: #55ab95;
+    padding-inline: 10%;
+    padding-block: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.landingPage .footer_text {
+    color: #c8c8c8;
+    font-size: 20px;
+}
+
+.landingPage .footer_flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.landingPage .footer_icon {
+    color: black;
+    height: 24px;
+}
+
+.landingPage .footer_icon:hover {
+    color: white;
+}
+
+.landingPage .footer_icon_url {
+    height: 24px;
+}
+
+.landingPage .footer_url {
+    color: white;
+    text-decoration: none;
+}

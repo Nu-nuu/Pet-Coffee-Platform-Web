@@ -1,0 +1,97 @@
+.login {
+    height: 100vh;
+    background-color: #141b2d;
+    display: flex;
+    align-items: center;
+}
+.login .login__form {
+    width: 75%;
+}
+
+.login .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login__title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #70d8bd;
+}
+.login .login__view__password__btn {
+    cursor: pointer;
+    color: #70d8bd;
+}
+.login .login__validation__error {
+    padding-left: 10px;
+    height: 12px;
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.login .login__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #55ab95;
+}
+
+.login .login__btn:hover {
+    background-color: #419781;
+}
+.login .login__link {
+    color: #8b8b8b !important;
+    text-align: right;
+}
+
+.login .login__link__btn {
+    text-decoration: none;
+}
+
+.login .login__forgot {
+    text-decoration: none;
+    color: #70d8bd;
+}
+.login .login__google {
+    margin-top: 20px;
+}
+
+.login .login__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.login .login__divide {
+    border-bottom: solid 1px #70d8bd;
+    width: 35%;
+}
+
+.login .login__google__btn {
+    cursor: pointer;
+    border: solid 2px #55ab95;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin-top: 15px;
+}
+
+.login .login__google__btn:hover {
+    background-color: #419781;
+    border: solid 2px #8b8b8b65;
+    transition: 0.4s;
+}
+
+.login .login__google__btn:hover .login__google__text {
+    color: #fff;
+}
+
+.login .login__google__img {
+    width: 7%;
+    height: 7%;
+}

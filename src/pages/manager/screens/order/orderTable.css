@@ -1,0 +1,79 @@
+.orderTable .box {
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding-inline: 20px;
+    padding-block: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.orderTable .overFlow {
+    overflow: scroll;
+    max-height: 80vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-right: 7px;
+}
+.orderTable .shop_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+.orderTable .shop_location {
+    margin-bottom: 20px;
+}
+.orderTable .time_box {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.orderTable .time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.orderTable .flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 17%;
+    margin-block: 15px;
+}
+.orderTable .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.orderTable .order_time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.orderTable .qty {
+    margin-block: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.orderTable .acc_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.orderTable .product_img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.orderTable .product_qty {
+    text-align: center;
+}
+.orderTable .duration {
+    text-align: center;
+    padding-right: 10px;
+}
+.orderTable .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderTable .balance_text {
+    font-size: 25px;
+    color: #70d8bd;
+}

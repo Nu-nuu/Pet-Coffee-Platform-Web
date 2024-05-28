@@ -1,0 +1,8 @@
+.shopDashboard .link {
+    display: inline-block;
+    margin-block: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #70d8bd;
+    text-transform: capitalize;
+}

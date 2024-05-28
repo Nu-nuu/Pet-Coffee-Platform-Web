@@ -1,0 +1,101 @@
+.createEvent {
+    padding-top: 2%;
+    padding-inline: 15%;
+}
+
+.createEvent .login__validation__error {
+    padding-left: 10px;
+    height: 12px;
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.createEvent .login__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #55ab95;
+}
+
+.createEvent .login__btn:hover {
+    background-color: #419781;
+}
+
+.createEvent .avatar_formik_box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.createEvent .avatar_formik {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.createEvent .avatar_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.createEvent .avatar_formik_icon {
+    font-size: 45px;
+}
+
+.createEvent .avatar_formik_box:hover .avatar_formik_icon_box {
+    opacity: 1;
+}
+
+.createEvent .background_formik_box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.createEvent .background_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.createEvent .background_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.createEvent .background_formik_icon {
+    font-size: 45px;
+}
+
+.createEvent .background_formik_box:hover .background_formik_icon_box {
+    opacity: 1;
+}

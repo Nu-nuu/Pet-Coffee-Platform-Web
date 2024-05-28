@@ -1,0 +1,83 @@
+.transactionTable .box {
+    padding-inline: 3%;
+    padding-block: 15px;
+    background-color: #283453;
+    border-radius: 6px;
+    margin-block: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transactionTable .overFlow {
+    overflow: scroll;
+    max-height: 80vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-right: 7px;
+}
+
+.transactionTable .trans_box {
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding-inline: 20px;
+    padding-block: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.transactionTable .trans_product_img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.transactionTable .balance_text {
+    font-size: 25px;
+    color: #70d8bd;
+}
+
+.transactionTable .trans_shop_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+.transactionTable .trans_shop_location {
+    margin-bottom: 20px;
+}
+.transactionTable .trans_time_box {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.transactionTable .trans_time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.transactionTable .trans_flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 17%;
+    margin-block: 15px;
+}
+.transactionTable .trans_flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.transactionTable .trans_order_time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.transactionTable .trans_qty {
+    margin-block: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.transactionTable .trans_acc_name {
+    font-size: 20px;
+    font-weight: bold;
+}

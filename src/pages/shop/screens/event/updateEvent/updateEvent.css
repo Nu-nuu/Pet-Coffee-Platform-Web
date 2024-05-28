@@ -1,0 +1,146 @@
+.updateEvent {
+    padding-top: 2%;
+    padding-inline: 15%;
+}
+
+.updateEvent .login__validation__error {
+    padding-left: 10px;
+    height: 12px;
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.updateEvent .login__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #55ab95;
+}
+
+.updateEvent .login__btn:hover {
+    background-color: #419781;
+}
+
+.updateEvent .avatar_formik_box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.updateEvent .avatar_formik {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.updateEvent .avatar_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.updateEvent .avatar_formik_icon {
+    font-size: 45px;
+}
+
+.updateEvent .avatar_formik_box:hover .avatar_formik_icon_box {
+    opacity: 1;
+}
+
+.updateEvent .background_formik_box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.updateEvent .background_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.updateEvent .background_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.updateEvent .background_formik_icon {
+    font-size: 45px;
+}
+
+.updateEvent .background_formik_box:hover .background_formik_icon_box {
+    opacity: 1;
+}
+
+.updateEvent .add__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    font-family: "Inter", sans-serif !important;
+    position: sticky;
+    top: 50%;
+    width: 50px;
+    height: 63px;
+    background-color: #55ab95;
+}
+
+.updateEvent .add__btn:hover {
+    background-color: #419781;
+}
+
+.updateEvent .field {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: solid 1px #55ab95;
+}
+
+.updateEvent .top_border {
+    height: 12px;
+    width: 100%;
+    background-color: #55ab95;
+    border-radius: 10px 10px 0 0;
+}
+
+.updateEvent .icon {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.updateEvent .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

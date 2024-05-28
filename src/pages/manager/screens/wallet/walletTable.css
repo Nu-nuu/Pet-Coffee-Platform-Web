@@ -1,0 +1,140 @@
+.walletTable {
+    width: 99%;
+}
+
+.walletTable
+    .css-182u8a6-MuiInputBase-root-MuiOutlinedInput-root:hover
+    .MuiOutlinedInput-notchedOutline {
+    border-color: #4cceac !important;
+}
+.walletTable .box {
+    padding-inline: 3%;
+    padding-block: 20px;
+    background-color: #283453;
+    border-radius: 6px;
+    margin-block: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 143.28px;
+}
+
+.walletTable .overFlow {
+    overflow: scroll;
+    max-height: 80vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-right: 7px;
+}
+
+.walletTable .content {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 30px;
+    width: 50%;
+}
+
+.walletTable .balance_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.walletTable .balance {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 35px;
+}
+
+.walletTable .span {
+    min-width: 80px;
+    display: inline-block;
+}
+
+.walletTable .trans_box {
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding-inline: 20px;
+    padding-block: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.walletTable .trans_product_img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.walletTable .balance_text {
+    font-size: 25px;
+    color: #70d8bd;
+}
+
+.walletTable .trans_shop_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+.walletTable .trans_shop_location {
+    margin-bottom: 20px;
+}
+.walletTable .trans_time_box {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.walletTable .trans_time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.walletTable .trans_flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 17%;
+    margin-block: 15px;
+}
+.walletTable .trans_flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.walletTable .trans_order_time {
+    font-size: 17px;
+    font-weight: 600;
+}
+.walletTable .trans_qty {
+    margin-block: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.walletTable .trans_acc_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.walletTable .back_btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #af3f3b;
+}
+.walletTable .back_btn:hover {
+    background-color: #832f2c;
+}
+
+.walletTable .submit_btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #55ab95;
+}
+.walletTable .submit_btn:hover {
+    background-color: #419781;
+}

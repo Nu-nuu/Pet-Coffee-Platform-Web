@@ -1,0 +1,106 @@
+.shop_topbar .popper {
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    padding-block: 15px;
+    background-color: #121212;
+    border-radius: 10px;
+    font-family: system-ui;
+    z-index: 1;
+}
+.shop_topbar .flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.shop_topbar .flex-center:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.shop_topbar .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.shop_topbar .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.shop_topbar .divider {
+    height: 1px;
+    background-color: #aaaaaa47;
+    margin-block: 11px;
+    margin-inline: 24px;
+}
+.shop_topbar .view_all {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    color: #70d8bd;
+}
+.shop_topbar .view_all:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.shop_topbar .logout {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+}
+.shop_topbar .logout:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.shop_topbar .back-flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.shop_topbar .back {
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.shop_topbar .back:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.shop_topbar .shop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.shop_topbar .shop:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.shop_topbar .shop_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.shop_topbar .shop_name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shop_topbar .shop_disable:hover {
+    background-color: #54545447;
+    cursor: not-allowed;
+}

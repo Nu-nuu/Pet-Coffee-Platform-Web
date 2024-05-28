@@ -1,0 +1,32 @@
+.transferStatus {
+    height: 100vh;
+    background-color: #141b2d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.transferStatus .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transferStatus .login__title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #70d8bd;
+}
+.transferStatus .login__desc {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+.transferStatus .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

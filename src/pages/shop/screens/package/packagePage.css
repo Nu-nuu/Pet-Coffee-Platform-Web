@@ -1,0 +1,453 @@
+.packagePage {
+    --index-0-color: #f1515e;
+    --index-1-color: #7ccfc1;
+    --index-2-color: #38419d;
+    --index-3-color: #e25e3e;
+    --index-4-color: #ae10f9;
+    --index-5-color: #00e3fd;
+    --index-6-color: #6ef195;
+    --index-7-color: #00e3fd;
+    --index-8-color: #f8cf6a;
+    --index-9-color: #2178dd;
+
+    --index-0-btn-border-color: var(--index-0-color);
+    --index-1-btn-border-color: var(--index-1-color);
+    --index-2-btn-border-color: var(--index-2-color);
+    --index-3-btn-border-color: var(--index-3-color);
+    --index-4-btn-border-color: var(--index-4-color);
+    --index-5-btn-border-color: var(--index-5-color);
+    --index-6-btn-border-color: var(--index-6-color);
+    --index-7-btn-border-color: var(--index-7-color);
+    --index-8-btn-border-color: var(--index-8-color);
+    --index-9-btn-border-color: var(--index-9-color);
+
+    --index-0-btn-hover-bg: var(--index-0-color);
+    --index-1-btn-hover-bg: var(--index-1-color);
+    --index-2-btn-hover-bg: var(--index-2-color);
+    --index-3-btn-hover-bg: var(--index-3-color);
+    --index-4-btn-hover-bg: var(--index-4-color);
+    --index-5-btn-hover-bg: var(--index-5-color);
+    --index-6-btn-hover-bg: var(--index-6-color);
+    --index-7-btn-hover-bg: var(--index-7-color);
+    --index-8-btn-hover-bg: var(--index-8-color);
+    --index-9-btn-hover-bg: var(--index-9-color);
+
+    --index-0-top-bg-start: #1dbde6;
+    --index-0-top-bg-end: var(--index-0-color);
+    --index-1-top-bg-start: #419197;
+    --index-1-top-bg-end: var(--index-1-color);
+    --index-2-top-bg-start: #3887be;
+    --index-2-top-bg-end: var(--index-2-color);
+    --index-3-top-bg-start: #ff9b50;
+    --index-3-top-bg-end: var(--index-3-color);
+    --index-4-top-bg-start: #e2db1f;
+    --index-4-top-bg-end: var(--index-4-color);
+    --index-5-top-bg-start: #6ef195;
+    --index-5-top-bg-end: var(--index-5-color);
+    --index-6-top-bg-start: #f8cf6a;
+    --index-6-top-bg-end: var(--index-6-color);
+    --index-7-top-bg-start: #145277;
+    --index-7-top-bg-end: var(--index-7-color);
+    --index-8-top-bg-start: #eed991;
+    --index-8-top-bg-end: var(--index-8-color);
+    --index-9-top-bg-start: #f8997d;
+    --index-9-top-bg-end: var(--index-9-color);
+}
+
+.packagePage .flex-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.packagePage .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.packagePage .noDesc {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+    text-align: center;
+    color: #70d8bd;
+    border: solid 2px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 7px;
+}
+.packagePage {
+    padding-inline: 3%;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar {
+    height: 10px;
+}
+.packagePage .header {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: hsl(210deg 3.7% 31.76%);
+}
+
+.packagePage .header_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.packagePage .desc {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 33px;
+    color: hsl(210deg 3.7% 31.76%);
+    font-weight: 600;
+}
+.packagePage .desc_span {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(210deg 3.7% 31.76%);
+}
+
+.packagePage .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-width: 17vw;
+}
+
+.packagePage .header_mid {
+    width: 100%;
+}
+
+.packagePage .header_mid_content {
+    font-size: 16px;
+    font-weight: 600;
+    padding-inline: 8%;
+    padding-block: 3%;
+    color: hsl(210deg 3.7% 31.76%);
+}
+
+.packagePage .header_mid_content:nth-child(even) {
+    background-color: hsl(205.71deg 14.89% 90.78%);
+}
+
+.packagePage .box_header {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.packagePage .box_duration {
+    font-size: 16px;
+    color: hsl(210deg 3.7% 31.76%);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 37px;
+}
+
+.packagePage .box_check {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.packagePage .checkIcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 46.68px;
+    align-items: center;
+}
+
+.packagePage .checkIcon:nth-child(even) {
+    background-color: hsl(205.71deg 14.89% 90.78%);
+}
+.packagePage .discount {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding-inline: 5px;
+    border: solid 1px #d4d9df;
+}
+.packagePage .box_btn_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.packagePage .money {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.packagePage .amount {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.packagePage .btn {
+    color: hsl(210deg 3.7% 31.76%);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.packagePage .btn:hover {
+    color: white;
+}
+.packagePage .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-block: 25px;
+}
+
+.packagePage .back_btn {
+    border: solid 3px red;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 14px;
+}
+
+.packagePage .back_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.packagePage .balance {
+    color: hsl(210deg 3.7% 31.76%);
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: left;
+    padding-inline: 8%;
+}
+
+.packagePage .overFlow {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.packagePage .index_0 {
+    color: var(--index-0-color);
+}
+
+.packagePage .index_0_btn {
+    border: solid 3px var(--index-0-btn-border-color);
+}
+
+.packagePage .index_0_btn:hover {
+    background-color: var(--index-0-btn-hover-bg);
+}
+
+.packagePage .index_0_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-0-top-bg-start),
+        var(--index-0-top-bg-end)
+    );
+}
+
+.packagePage .index_1 {
+    color: var(--index-1-color);
+}
+
+.packagePage .index_1_btn {
+    border: solid 3px var(--index-1-btn-border-color);
+}
+
+.packagePage .index_1_btn:hover {
+    background-color: var(--index-1-btn-hover-bg);
+}
+
+.packagePage .index_1_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-1-top-bg-start),
+        var(--index-1-top-bg-end)
+    );
+}
+
+.packagePage .index_2 {
+    color: var(--index-2-color);
+}
+
+.packagePage .index_2_btn {
+    border: solid 3px var(--index-2-btn-border-color);
+}
+
+.packagePage .index_2_btn:hover {
+    background-color: var(--index-2-btn-hover-bg);
+}
+
+.packagePage .index_2_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-2-top-bg-start),
+        var(--index-2-top-bg-end)
+    );
+}
+
+.packagePage .index_3 {
+    color: var(--index-3-color);
+}
+
+.packagePage .index_3_btn {
+    border: solid 3px var(--index-3-btn-border-color);
+}
+
+.packagePage .index_3_btn:hover {
+    background-color: var(--index-3-btn-hover-bg);
+}
+
+.packagePage .index_3_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-3-top-bg-start),
+        var(--index-3-top-bg-end)
+    );
+}
+
+.packagePage .index_4 {
+    color: var(--index-4-color);
+}
+
+.packagePage .index_4_btn {
+    border: solid 3px var(--index-4-btn-border-color);
+}
+
+.packagePage .index_4_btn:hover {
+    background-color: var(--index-4-btn-hover-bg);
+}
+
+.packagePage .index_4_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-4-top-bg-start),
+        var(--index-4-top-bg-end)
+    );
+}
+
+.packagePage .index_5 {
+    color: var(--index-5-color);
+}
+
+.packagePage .index_5_btn {
+    border: solid 3px var(--index-5-btn-border-color);
+}
+
+.packagePage .index_5_btn:hover {
+    background-color: var(--index-5-btn-hover-bg);
+}
+
+.packagePage .index_5_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-5-top-bg-start),
+        var(--index-5-top-bg-end)
+    );
+}
+
+.packagePage .index_6 {
+    color: var(--index-6-color);
+}
+
+.packagePage .index_6_btn {
+    border: solid 3px var(--index-6-btn-border-color);
+}
+
+.packagePage .index_6_btn:hover {
+    background-color: var(--index-6-btn-hover-bg);
+}
+
+.packagePage .index_6_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-6-top-bg-start),
+        var(--index-6-top-bg-end)
+    );
+}
+
+.packagePage .index_7 {
+    color: var(--index-7-color);
+}
+
+.packagePage .index_7_btn {
+    border: solid 3px var(--index-7-btn-border-color);
+}
+
+.packagePage .index_7_btn:hover {
+    background-color: var(--index-7-btn-hover-bg);
+}
+
+.packagePage .index_7_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-7-top-bg-start),
+        var(--index-7-top-bg-end)
+    );
+}
+
+.packagePage .index_8 {
+    color: var(--index-8-color);
+}
+
+.packagePage .index_8_btn {
+    border: solid 3px var(--index-8-btn-border-color);
+}
+
+.packagePage .index_8_btn:hover {
+    background-color: var(--index-8-btn-hover-bg);
+}
+
+.packagePage .index_8_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-8-top-bg-start),
+        var(--index-8-top-bg-end)
+    );
+}
+
+.packagePage .index_9 {
+    color: var(--index-9-color);
+}
+
+.packagePage .index_9_btn {
+    border: solid 3px var(--index-9-btn-border-color);
+}
+
+.packagePage .index_9_btn:hover {
+    background-color: var(--index-9-btn-hover-bg);
+}
+
+.packagePage .index_9_top {
+    background-image: linear-gradient(
+        to right,
+        var(--index-9-top-bg-start),
+        var(--index-9-top-bg-end)
+    );
+}

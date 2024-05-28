@@ -1,0 +1,144 @@
+.admin_topbar .popper {
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    padding-block: 15px;
+    background-color: #121212;
+    border-radius: 10px;
+    font-family: system-ui;
+    z-index: 1;
+}
+.admin_topbar .flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.admin_topbar .flex-center:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.admin_topbar .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.admin_topbar .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.admin_topbar .divider {
+    height: 1px;
+    background-color: #aaaaaa47;
+    margin-block: 11px;
+    margin-inline: 24px;
+}
+.admin_topbar .view_all {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    color: #70d8bd;
+}
+.admin_topbar .view_all:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.admin_topbar .logout {
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+}
+.admin_topbar .logout:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.admin_topbar .back-flex-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.admin_topbar .back {
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.admin_topbar .back:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.admin_topbar .shop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-block: 5px;
+}
+.admin_topbar .shop:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.admin_topbar .shop_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.admin_topbar .shop_name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.admin_topbar .shop_disable:hover {
+    background-color: #54545447;
+    cursor: not-allowed;
+}
+
+.admin_topbar .flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin_topbar .count {
+    position: absolute;
+    top: 25px;
+    right: 6px;
+    background-color: #55ab95;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.admin_topbar .count_box {
+    position: relative;
+}
+.admin_topbar .noti_box {
+    padding: 10px;
+    padding-block: 5px;
+    cursor: pointer;
+}
+.admin_topbar .noti_box:hover {
+    background-color: #aaaaaa47;
+}
+.admin_topbar .title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.admin_topbar .content {
+    font-size: 13px;
+    color: gainsboro;
+}
+.admin_topbar .isread {
+    color: #8b8b8b;
+}

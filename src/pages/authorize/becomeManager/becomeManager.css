@@ -1,0 +1,69 @@
+.becomeManager {
+    height: 100vh;
+    background-color: #141b2d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.becomeManager .flex-baseline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.becomeManager .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.becomeManager .login__title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #70d8bd;
+}
+.becomeManager .login__desc {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.becomeManager .divider {
+    border-bottom: solid 1px #70d8bd;
+    width: 27%;
+}
+
+.becomeManager .processing_text {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.becomeManager .processing_shop_box {
+    border-radius: 10px;
+    border: solid 3px #70d8bd;
+    padding-inline: 37px;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.becomeManager .processing_shop_field {
+    font-size: 20px;
+    color: #70d8bd;
+}
+
+.becomeManager .processing_shop_span {
+    color: white;
+    min-width: 139px;
+    display: inline-block;
+}

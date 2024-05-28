@@ -1,0 +1,79 @@
+.eventDetail {
+    padding-top: 2%;
+    padding-inline: 15%;
+}
+
+.eventDetail .header {
+    border-radius: 15px;
+    border: solid 1px #70d8bd;
+}
+.eventDetail .topBorder {
+    height: 20px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: #70d8bd;
+}
+.eventDetail .img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.eventDetail .title {
+    font-size: 24pt;
+    font-family: "docs-Roboto", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.eventDetail .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.eventDetail .field {
+    border-radius: 15px;
+    border: solid 1px #70d8bd;
+    padding-inline: 5%;
+    padding-block: 2%;
+    margin-bottom: 30px;
+}
+.eventDetail .question {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "docs-Roboto", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.eventDetail .textfield {
+    margin-block: 5px;
+}
+.eventDetail .option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.eventDetail .MuiTabList-indicator {
+    background-color: #70d8bd !important;
+}
+
+.eventDetail .back_btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #af3f3b;
+}
+.eventDetail .back_btn:hover {
+    background-color: #832f2c;
+}
+
+.eventDetail .answer {
+    font-size: 20px;
+    color: #70d8bd;
+    margin-bottom: 10px;
+}
+.eventDetail .answer_box {
+    max-height: 200px;
+    overflow: auto;
+}

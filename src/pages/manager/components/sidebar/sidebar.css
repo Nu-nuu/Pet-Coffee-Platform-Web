@@ -1,0 +1,35 @@
+.managerSidebar {
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+
+.managerSidebar .box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.managerSidebar .box:hover {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+}
+.managerSidebar .selected_box {
+    background-color: #aaaaaa47;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.managerSidebar .flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

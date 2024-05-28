@@ -1,0 +1,177 @@
+.managerProfile {
+    padding-inline: 15%;
+    padding-bottom: 50px;
+}
+
+.managerProfile .background {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.managerProfile .avatar {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.managerProfile .role {
+    margin-top: 12%;
+    text-align: center;
+    font-size: 25px;
+    color: #70d8bd;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.managerProfile .flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.managerProfile .field {
+    padding-block: 10px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.managerProfile .field:nth-child(even) {
+    background-color: #242e46;
+}
+
+.managerProfile .span {
+    min-width: 165px;
+    display: inline-block;
+}
+
+.managerProfile .btn {
+    background-color: #70d8bd;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+}
+
+.managerProfile .btn:hover {
+    background-color: #5cb29b;
+}
+
+.managerProfile .flex_center {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.managerProfile .input {
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    min-width: 436px;
+}
+
+.managerProfile .avatar_formik_box {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.managerProfile .avatar_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.managerProfile .avatar_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.managerProfile .avatar_formik_icon {
+    font-size: 45px;
+}
+
+.managerProfile .avatar_formik_box:hover .avatar_formik_icon_box {
+    opacity: 1;
+}
+
+.managerProfile .background_formik_box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.managerProfile .background_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.managerProfile .background_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.managerProfile .background_formik_icon {
+    font-size: 45px;
+}
+
+.managerProfile .background_formik_box:hover .background_formik_icon_box {
+    opacity: 1;
+}
+
+.managerProfile .error {
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.managerProfile .shop_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.managerProfile .shop_name {
+    font-weight: 700;
+    color: #70d8bd;
+}
+
+.managerProfile .shop_span {
+    min-width: 125px;
+    display: inline-block;
+}

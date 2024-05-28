@@ -1,0 +1,10 @@
+.backModal .back_btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #af3f3b;
+}
+.backModal .back_btn:hover {
+    background-color: #832f2c;
+}

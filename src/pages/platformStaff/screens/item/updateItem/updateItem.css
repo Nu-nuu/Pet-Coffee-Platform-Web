@@ -1,0 +1,96 @@
+.updateItem {
+    padding-top: 2%;
+    padding-inline: 15%;
+}
+
+.updateItem .login__validation__error {
+    padding-left: 10px;
+    height: 12px;
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.updateItem .login__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+}
+
+.updateItem .avatar_formik_box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.updateItem .avatar_formik {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.updateItem .avatar_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.updateItem .avatar_formik_icon {
+    font-size: 45px;
+}
+
+.updateItem .avatar_formik_box:hover .avatar_formik_icon_box {
+    opacity: 1;
+}
+
+.updateItem .background_formik_box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.updateItem .background_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.updateItem .background_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.updateItem .background_formik_icon {
+    font-size: 45px;
+}
+
+.updateItem .background_formik_box:hover .background_formik_icon_box {
+    opacity: 1;
+}

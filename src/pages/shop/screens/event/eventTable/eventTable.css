@@ -1,0 +1,13 @@
+.eventTable .createBtn {
+    background-color: #23ce48;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+.eventTable .createBtn:hover {
+    background-color: #189b35;
+}

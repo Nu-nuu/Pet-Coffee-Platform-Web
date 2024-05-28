@@ -1,0 +1,151 @@
+.signup {
+    background-color: #141b2d;
+}
+
+.signup .signup__form {
+    width: 80%;
+    padding-block: 3em;
+}
+
+.signup .sticky {
+    position: sticky;
+    top: 7em;
+}
+
+.signup .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .login__title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #70d8bd;
+}
+
+.signup .login__view__password__btn {
+    cursor: pointer;
+    color: #70d8bd;
+}
+
+.signup .login__validation__error {
+    padding-left: 10px;
+    height: 12px;
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.signup .login__btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #55ab95;
+}
+
+.signup .login__btn:hover {
+    background-color: #419781;
+}
+
+.signup .login__link {
+    color: #8b8b8b !important;
+    text-align: right;
+}
+
+.map-container {
+    height: 350px;
+    margin-block: 10px;
+    position: relative;
+}
+.signup .location {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    color: black;
+    background-color: white;
+    padding-block: 4px;
+    padding-inline: 13px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.signup .avatar_formik_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.signup .avatar_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.signup .avatar_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.signup .avatar_formik_icon {
+    font-size: 45px;
+}
+
+.signup .avatar_formik_box:hover .avatar_formik_icon_box {
+    opacity: 1;
+}
+
+.signup .background_formik_box {
+    position: relative;
+    width: 100%;
+    height: 240px;
+}
+
+.signup .background_formik {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.signup .background_formik_icon_box {
+    position: absolute;
+    opacity: 0;
+    background: #aaaaaa47;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.signup .background_formik_icon {
+    font-size: 45px;
+}
+
+.signup .background_formik_box:hover .background_formik_icon_box {
+    opacity: 1;
+}

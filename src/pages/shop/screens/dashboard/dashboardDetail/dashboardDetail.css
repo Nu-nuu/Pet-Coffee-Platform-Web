@@ -1,0 +1,36 @@
+.shopDashboardDetail .link {
+    display: inline-block;
+    margin-block: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #70d8bd;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.shopDashboardDetail .link:hover {
+    color: #4f9985;
+}
+.shopDashboardDetail .span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #70d8bd;
+}
+
+.shopDashboardDetail .noTrans {
+    margin-block: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.334;
+    text-transform: capitalize;
+}
+
+.shopDashboardDetail .back_btn {
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: "Inter", sans-serif !important;
+    font-size: 20px;
+    background-color: #af3f3b;
+}
+.shopDashboardDetail .back_btn:hover {
+    background-color: #832f2c;
+}
