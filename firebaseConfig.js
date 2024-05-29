@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBUf2-kDpPGY5HH7-GLgfqUEoTYPTMNaaU",
+    apiKey: "",
     authDomain: "petcoffeeshop-888c1.firebaseapp.com",
     projectId: "petcoffeeshop-888c1",
     storageBucket: "petcoffeeshop-888c1.appspot.com",
